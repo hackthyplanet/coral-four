@@ -22,7 +22,7 @@ function preload(){
 
 }
 function setup() {
-  createCanvas(windowWidth -10, windowHeight -10
+  createCanvas(windowWidth -1, windowHeight -1
     , WEBGL);
   c = w / scl;
   r = h / scl;
