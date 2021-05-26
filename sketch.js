@@ -17,7 +17,7 @@ let ctx, ctxOn;
 function preload(){
   
   
-  soundscape = loadSound('assets/outtosea.mp3')
+  soundscape = loadSound('assets/coral four.mp3')
 
 
 }
@@ -42,7 +42,7 @@ function setup() {
 
   
   
-  ///soundscape.play()
+  soundscape.play()
   
 	
 	//create matrix for water vertex
