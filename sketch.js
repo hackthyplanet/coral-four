@@ -2,8 +2,8 @@ var c, r; //columns and rows for the 3d vertex;
 var f = 0; // speed for mount 1;
 var f1 = 0; // speed for mount 2;
 var scl = 15; //how dense the triangle strips are
-var w = 1800; //width
-var h = 800; // height
+
+
 var speed = 0 ; //speed the waves are moving
 var noiseScale=0.05; // noise for making mountains
 var water = []; //water array
@@ -30,19 +30,12 @@ function setup() {
   noCursor()
   
 
-  
-    //ctx = getAudioContext();
-    // ctxOn = createButton('Audio');
-    ///ctxOn.position( 100, 100 )
-    ///ctxOn.mousePressed(() => {
-  	//ctx.resume().then(() => {
-  	///console.log('Audio Context is now ON');
-  	//});
-    //});
+var w = windowWidth; //width
+var h = windowHeight; // height
 
   
   
-  soundscape.play()
+  soundscape.loop()
   
 	
 	//create matrix for water vertex
